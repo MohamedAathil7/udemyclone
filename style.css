@@ -1,0 +1,157 @@
+*{
+    font-family: "Gabarito", sans-serif;   
+    padding: 0;
+    margin: 0; 
+}
+
+.navbar{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-2{
+    border: solid black 1px;
+    width: 70%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.navbar-2 input{
+    border:none;
+    width:100%;
+    padding:2px;
+    border-radius: px;
+}
+
+.navbar-2 input:focus{
+    outline:none;
+}
+
+.navbar-3{
+    display: flex;
+    gap:10px;
+}   
+
+.category{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.category p:hover{
+    background-color: white;
+    color: #A235F0;
+}
+.category p{
+    color: aliceblue;
+    background-color: #A235F0;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.ext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.pp{
+    
+    display: flex;
+    gap: 0px;
+    background-color: #A235F0;
+}
+
+.pp p{
+    padding: 20px;
+    padding-top: px;
+   
+    border: solid red 1px;
+}
+.pp p:hover{
+    background-color: green;
+}
+
+.hrs h1{
+    margin-left: 150px;
+}   
+.card{
+    padding: 20px;
+}
+.card__overall{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card__section{
+    margin-top: 10px;
+    width: 250px;
+}
+
+.card__section img{
+    width:100%;
+    height:70%
+}
+
+.topics{
+    display: flex;
+    padding: 20px;
+
+    flex-wrap: wrap;
+}
+.topics__desc{
+   
+    flex-basis: 25%;
+    padding: 5px;
+    margin: 2px;
+    border:solid #A235F0  2px;
+    flex-grow: 1;
+}
+
+.b{
+    margin-left: 6px;
+    border: none;
+}
+.popular{
+    padding: 20px;
+}
+.popular-overall{
+    display: flex;
+    gap: 20px;
+    flex-wrap:wrap ;
+    justify-content: space-betwen;
+}
+
+.popular-card{
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+
+.popular-card img{
+    width: 80%;
+    height: 70%;
+}
+.footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.footer-1{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 30px;
+}
+
+.footer-1 p{
+    margin: 10px;
+}
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
